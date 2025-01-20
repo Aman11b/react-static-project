@@ -40,6 +40,7 @@ main > h1 {
 
 main {
   padding:  50px 20px; 
+
 }
 
 .facts-list{
@@ -50,4 +51,10 @@ main {
 .facts-list >li {
   padding-block:10px;
   line-height: 20px;
+
+}
+
+.facts-list > li::marker{
+  color: #61dafb;
+  font-size: 1.5rem;
 }
